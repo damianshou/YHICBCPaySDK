@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YHICBCPaySDK_Example' do
+  pod 'YHICBCPaySDK', :path => '../'
+
+  target 'YHICBCPaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
