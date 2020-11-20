@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AlipaySDK-iOS (15.7.9)
+  - GTMBase64 (1.0.1)
+  - Toast (3.0)
+  - WechatOpenSDK (1.8.7.1)
+  - YHICBCPaySDK (0.1.0):
+    - AFNetworking (~> 3.0)
+    - AlipaySDK-iOS
+    - GTMBase64 (= 1.0.1)
+    - Toast (= 3.0)
+    - WechatOpenSDK
+
+DEPENDENCIES:
+  - YHICBCPaySDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AlipaySDK-iOS
+    - GTMBase64
+    - Toast
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  YHICBCPaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AlipaySDK-iOS: 94ff4c0e17c5e7d126b8207596d5033006534c25
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  YHICBCPaySDK: 299d3f391165afb831a943821027babae5fb4623
+
+PODFILE CHECKSUM: 6d9a2e0aedd430c72337add3e33c06b714f430b0
+
+COCOAPODS: 1.10.0

@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1E7C636D9FD7D1E341AE1E03 /* Pods-YHICBCPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHICBCPaySDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YHICBCPaySDK_Tests/Pods-YHICBCPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2395A3E17A2342A950E95BCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2524EF6078B872559DCC828D /* YHICBCPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YHICBCPaySDK.podspec; path = ../YHICBCPaySDK.podspec; sourceTree = "<group>"; };
+		2395A3E17A2342A950E95BCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2524EF6078B872559DCC828D /* YHICBCPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHICBCPaySDK.podspec; path = ../YHICBCPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5EF06D2AE22F4551ED207FD6 /* Pods_YHICBCPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHICBCPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YHICBCPaySDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHICBCPaySDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ACB57E7028C076D0867EC85 /* Pods-YHICBCPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHICBCPaySDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-YHICBCPaySDK_Tests/Pods-YHICBCPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B80767FBA981FC56B1B621AE /* Pods_YHICBCPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHICBCPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C74B6C9CF6DA445F46D5DC0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C74B6C9CF6DA445F46D5DC0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E409FFA633077A2B11CD6D95 /* Pods-YHICBCPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHICBCPaySDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				1E7C636D9FD7D1E341AE1E03 /* Pods-YHICBCPaySDK_Tests.debug.xcconfig */,
 				9ACB57E7028C076D0867EC85 /* Pods-YHICBCPaySDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				3D731F05B7DB46E0E5E2E3E9 /* [CP] Embed Pods Frameworks */,
+				51BD1C00D1C1653F20E165B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,15 +347,39 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YHICBCPaySDK/YHICBCPaySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMBase64/GTMBase64.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHICBCPaySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMBase64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BD1C00D1C1653F20E165B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example-resources.sh",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+				"${PODS_ROOT}/../../Resources/ICBCPaySDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ICBCPaySDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

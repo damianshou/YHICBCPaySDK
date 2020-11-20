@@ -1,0 +1,1701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1BF22BB8B66D2F42B77D2D7DF5C94648 /* YHICBCPaySDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDFD7ACB8BFBEB7ADD4C2EC39EDCE2D5 /* Build configuration list for PBXAggregateTarget "YHICBCPaySDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6A8D3E8ACC2C83662C002DBFB06208DF /* PBXTargetDependency */,
+				9B4745536A127A78D1599409903A5F3E /* PBXTargetDependency */,
+				3CBC55FAB83A880BD517123A1246EAF8 /* PBXTargetDependency */,
+				34655888F03FBD701225D29E181BB758 /* PBXTargetDependency */,
+				BA4B455904C2AF2F034B51C46F32AE1D /* PBXTargetDependency */,
+			);
+			name = YHICBCPaySDK;
+		};
+		4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AlipaySDK-iOS";
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03B52B43F73954600E51B018D50E6D72 /* Pods-YHICBCPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20946FC1030864EA02A5BE6F9FA454D0 /* Pods-YHICBCPaySDK_Example-dummy.m */; };
+		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 215E48B86283CC11347D0906CD543EFE /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEA5018E79BE9623C9DE5D378607AF0 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CAD72DBC4AE8C1746FC12F9E0E91046 /* Pods-YHICBCPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 406AC52D1CF8BAD213C0D540147E4EF0 /* Pods-YHICBCPaySDK_Tests-dummy.m */; };
+		0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 65196BA1786845935C5145A015D89A9A /* AFImageDownloader.m */; };
+		149F6D5E81684757AE7527F6844ED862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49130CA02DFD38B585EC61D380F2B043 /* Foundation.framework */; };
+		169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A913681CA612B45267B58866E3C6A5 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5F9CE600C59E51E4510FC76D14AE01 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23359F08E3448F2864BF3BEDC9D81F81 /* GTMBase64-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B330FF9A1BCF457E1020A5AA98B370 /* GTMBase64-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 453A416B547BDA1CA6CAC8CD0001C009 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EE6BA342A50C04AB3BA954218F9C0E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49130CA02DFD38B585EC61D380F2B043 /* Foundation.framework */; };
+		2EE846B5A6535CC8833F613D0E2BBE6F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D8E111F1FA7F326F4E434D9A2AAE79 /* QuartzCore.framework */; };
+		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A622D712D4FAB8E9EF305D780BB992 /* AFAutoPurgingImageCache.m */; };
+		30779EDAAAECEC1C5D5F78F87FD41EBB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BD54BD7DF83D62B75243109FC66426 /* MobileCoreServices.framework */; };
+		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A9B09B9C523A81EED5E8ABFD7E598 /* UIButton+AFNetworking.m */; };
+		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F462C468FADF501E74FCB253228ACD1 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEEC5CBC551A348D869007F2B75ADF /* AFNetworking-dummy.m */; };
+		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = D1ACFC9D398332854E220A9759B3959C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 855C27B2138E671A8084DC4633B47C9B /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5034F06E35ACE54609111067184E914 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59283183232C2DF3CE5004DD2E72D7DA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3511DB03324AFC87DAFA0D06B607D5 /* SystemConfiguration.framework */; };
+		626B39E4D476758CD613021647AB45BC /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 09803D8C8042D8244A2BC71820ABB660 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D89D83C7F410AF493120322EF3CD5CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49130CA02DFD38B585EC61D380F2B043 /* Foundation.framework */; };
+		6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 687781C033E530C7DFC72AEEC5024698 /* AFNetworkActivityIndicatorManager.m */; };
+		6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 788CC8CB827BEA840BFEEF3A7F4F8B52 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D81707FF61BB34F2FBD89291D80D8F /* AFSecurityPolicy.m */; };
+		77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432D287C245BFA755A3992E04F016FE /* AFHTTPSessionManager.m */; };
+		7CB8C3F1313A78F77CFFF51D24DDF653 /* Pods-YHICBCPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 236D67455EC5BBC3539BBC7E4E25B290 /* Pods-YHICBCPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA3AE179E2816041A6C2238FCFCEF08 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84176BABEC44273143E4BF4D56C8B6D3 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32321B12A06682ED5FCACEE38413A317 /* Toast-dummy.m */; };
+		856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D74FEC72BA7DDA577527A980B024138 /* AFURLSessionManager.m */; };
+		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 437685428C375341CB515DC4F1CE992E /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED3104AD8E1CD6661D1C9A5BF7179F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49130CA02DFD38B585EC61D380F2B043 /* Foundation.framework */; };
+		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D0429CF3C1878A1AC025613F9C162CB6 /* UIActivityIndicatorView+AFNetworking.m */; };
+		95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A4F06EAA0109915E1F3D1FC2D71CE /* AFNetworkReachabilityManager.m */; };
+		98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 262DCCEAC696CCB577BD3D2F65497586 /* UIProgressView+AFNetworking.m */; };
+		9AFFB2CFE22FCB06F9B1F8D5B1E58E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49130CA02DFD38B585EC61D380F2B043 /* Foundation.framework */; };
+		9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF725EA3BDD882124CF6C3BF551F483 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE8A3A76DCD32D6D01BAB2223A75CE /* AFURLResponseSerialization.m */; };
+		A6D090FB1C368A800489124E5A734EC6 /* GTMBase64-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4690443B93B14DF9CF004B84A59D6BB8 /* GTMBase64-dummy.m */; };
+		A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4D710687E1FEE65F3911ED104F353E /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABBB199286D73567D919E6FC6C8928F7 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C43F7FD093DC9CB8C4A7473F02B210 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC05CCA1C509A0B6ED3CD86700D7722B /* Pods-YHICBCPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3992409DEA53B94E34750240F3B7CA54 /* Pods-YHICBCPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 272C69C149796CC884698E3A22499DDA /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E928B1CF06EDB9093A69A9CFF18326 /* UIImageView+AFNetworking.m */; };
+		B30E8793C8B03056D888492A5C29EFE3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320791CEB39B0ECD6F4305ADF054628D /* Security.framework */; };
+		B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB0028C085036E51607AAAD3FB84FE2 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 28807A603C31BABE02E6DA0F29BF03CC /* UIRefreshControl+AFNetworking.m */; };
+		D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E04608341BFAD99A8661D97A95B36A72 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8806BF6FCB2E6C7DB6A7FA9E23D85 /* UIWebView+AFNetworking.m */; };
+		DDEC283429FB237D96EA4C757133FADD /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = E350DF623E016CF498ED6D57DA6AF46C /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA8C76241B44088623D5FAC16EED5A /* AFURLRequestSerialization.m */; };
+		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 531E1BF21E56A1FC97849DF30FDD116F /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85B2E683944E5C2C38E0B5171B304B2 /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D697BCE017007A3043ECEB6E46DFFE51 /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC45C240923AED7179ED122E374108DF /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 615609E2DA32EB985D8F0465F81A76D8 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F3D42BC4EDA52A276BE5C2996AD99AE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED510026DD60918D1E809135079052A /* CoreGraphics.framework */; };
+		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8444E4D44D4DB9BB4965EDAA238657AB /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B02F084D611917B9C70261967D8451 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4B8D47A4795F2BB66EFEF0DDA8F73F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 115CA794664A28D823B8F23AA06926BE /* GTMBase64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D16FCB0830FFE5273151D3746CE7BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6E510021818A5EDEC87531785C623C;
+			remoteInfo = "Pods-YHICBCPaySDK_Example";
+		};
+		104A6EAE79BB2023DA602862985DDDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80A4D6B185BA43BC06122FED0C15F94;
+			remoteInfo = Toast;
+		};
+		14C261342B39E995C1B9AFE1E94AE21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		259AE986022DC27C84B9735565D3A3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF22BB8B66D2F42B77D2D7DF5C94648;
+			remoteInfo = YHICBCPaySDK;
+		};
+		4EFD9C6026ECEC412D6748A8991346D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		58D032BC7C08D9499A9DB54BB6FA6434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		67F441B6803528F3EFE57002D62F999E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80A4D6B185BA43BC06122FED0C15F94;
+			remoteInfo = Toast;
+		};
+		83BA6B26A35068978EEB2B0C4F6630BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD0BEB997F424C11EE21A4E091425E4;
+			remoteInfo = GTMBase64;
+		};
+		888D4468451254B63F9FC0F9012B2481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		B303B9E10CDB3DBDB551BB1F0A5D7EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		C8799EE4E8A4B85E452FE3160DB74E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD0BEB997F424C11EE21A4E091425E4;
+			remoteInfo = GTMBase64;
+		};
+		F85584298F931E8D8F2EA5CE8172EDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033BC1BDA6DC1ABD6E53424D36633B8C /* Pods-YHICBCPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHICBCPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		03F2C945A0D535A2A16B934870B11BF1 /* Pods-YHICBCPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHICBCPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0475A67DAD94594D637402154186BB19 /* YHICBCPaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHICBCPaySDK.debug.xcconfig; sourceTree = "<group>"; };
+		07B02F084D611917B9C70261967D8451 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		09803D8C8042D8244A2BC71820ABB660 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = GTMBase64/GTMDefines.h; sourceTree = "<group>"; };
+		0CF725EA3BDD882124CF6C3BF551F483 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		0D687608864DCE30DAC795693AD8EE1F /* GTMBase64-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTMBase64-Info.plist"; sourceTree = "<group>"; };
+		115CA794664A28D823B8F23AA06926BE /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMBase64.m; path = GTMBase64/GTMBase64.m; sourceTree = "<group>"; };
+		17FBF6D10EF0201EB1B12823E0CE4203 /* GTMBase64.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMBase64.release.xcconfig; sourceTree = "<group>"; };
+		19A622D712D4FAB8E9EF305D780BB992 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		19B330FF9A1BCF457E1020A5AA98B370 /* GTMBase64-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMBase64-umbrella.h"; sourceTree = "<group>"; };
+		1A5FF4153DD3396FD8FEEF3FF2F2AB2A /* Toast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.release.xcconfig; sourceTree = "<group>"; };
+		1B6A062468F08F21F507E607BA049974 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		1BB19109C9E7481A7BA18F44825CDA31 /* YHICBCPaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHICBCPaySDK.release.xcconfig; sourceTree = "<group>"; };
+		20946FC1030864EA02A5BE6F9FA454D0 /* Pods-YHICBCPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHICBCPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		215A9B09B9C523A81EED5E8ABFD7E598 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		215E48B86283CC11347D0906CD543EFE /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		236D67455EC5BBC3539BBC7E4E25B290 /* Pods-YHICBCPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHICBCPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		23C0B31A57BADE12E1913395F33492B6 /* Pods-YHICBCPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHICBCPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		24C1DDE0ECD83C56E967518DC073C2E1 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		262DCCEAC696CCB577BD3D2F65497586 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		269CFAAF49D4A8FE582D99FE367A021A /* AlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		272C69C149796CC884698E3A22499DDA /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		27BD54BD7DF83D62B75243109FC66426 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		286E126BE5FC01D38CC1E8D5FD61BF30 /* GTMBase64.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMBase64.modulemap; sourceTree = "<group>"; };
+		28807A603C31BABE02E6DA0F29BF03CC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		2F462C468FADF501E74FCB253228ACD1 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		2FEA5018E79BE9623C9DE5D378607AF0 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		2FFEEC5CBC551A348D869007F2B75ADF /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		305150B8044C5150B8AB65FF60127001 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
+		318585F33FC0AF4C8F5FE6D0846117EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		320791CEB39B0ECD6F4305ADF054628D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		32321B12A06682ED5FCACEE38413A317 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		3992409DEA53B94E34750240F3B7CA54 /* Pods-YHICBCPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHICBCPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		406AC52D1CF8BAD213C0D540147E4EF0 /* Pods-YHICBCPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHICBCPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		437685428C375341CB515DC4F1CE992E /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		453A416B547BDA1CA6CAC8CD0001C009 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		459EFF690B15DB2ED38F82D87B98B84F /* Pods_YHICBCPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHICBCPaySDK_Tests.framework; path = "Pods-YHICBCPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4690443B93B14DF9CF004B84A59D6BB8 /* GTMBase64-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMBase64-dummy.m"; sourceTree = "<group>"; };
+		49130CA02DFD38B585EC61D380F2B043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BC8806BF6FCB2E6C7DB6A7FA9E23D85 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		4CA3AE179E2816041A6C2238FCFCEF08 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		4D74FEC72BA7DDA577527A980B024138 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		51FA8C76241B44088623D5FAC16EED5A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		531E1BF21E56A1FC97849DF30FDD116F /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		53DA3F8E66971AE50BBA32C6A95656D6 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C28691EF65ED80943C8154BB3CD821 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		615609E2DA32EB985D8F0465F81A76D8 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		65196BA1786845935C5145A015D89A9A /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		687781C033E530C7DFC72AEEC5024698 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		6C119A3EC0B585C2726857E1599974D3 /* Pods-YHICBCPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHICBCPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CCFF6B318BF0595315A9141F0B09545 /* Pods-YHICBCPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHICBCPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		6EEED0B32984A078D57AB949FF68A736 /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		714A75230C59CFC4CB1129CDFF9CCCA1 /* Pods_YHICBCPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHICBCPaySDK_Example.framework; path = "Pods-YHICBCPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788CC8CB827BEA840BFEEF3A7F4F8B52 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		796EBAD0FC72CB19E4F262E724E5AE80 /* GTMBase64.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMBase64.debug.xcconfig; sourceTree = "<group>"; };
+		7A5F9CE600C59E51E4510FC76D14AE01 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7C40696873724B458A9B55A3C046BE54 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		7ED510026DD60918D1E809135079052A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7FDD30D55C3070A3F50B97D1BA2ABADC /* Pods-YHICBCPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHICBCPaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		8432D287C245BFA755A3992E04F016FE /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		8444E4D44D4DB9BB4965EDAA238657AB /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		855C27B2138E671A8084DC4633B47C9B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		88BE8A3A76DCD32D6D01BAB2223A75CE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		8FC617200BE81A1AB634018985B3559F /* Pods-YHICBCPaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHICBCPaySDK_Example-Info.plist"; sourceTree = "<group>"; };
+		9145D5806224265EB879830EF30F05C3 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		91FD61FB9521D00EF5B50F3CB4FC3CD0 /* GTMBase64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMBase64.framework; path = GTMBase64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E928B1CF06EDB9093A69A9CFF18326 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		94A913681CA612B45267B58866E3C6A5 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9836296C169E5B7908CD867C2D9F5562 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		9847B1DF31381E7F3AF4C0F1D338573C /* Pods-YHICBCPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHICBCPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9B1F804BD2C00C6ACFAC934CDDE7422C /* Toast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5034F06E35ACE54609111067184E914 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		A744B5509FA82B64664234770191635E /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B1C43F7FD093DC9CB8C4A7473F02B210 /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMBase64.h; path = GTMBase64/GTMBase64.h; sourceTree = "<group>"; };
+		B70853C5F91229947DE76E573F89AA6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA853D035055163EBD3C3198AD057C47 /* Toast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.debug.xcconfig; sourceTree = "<group>"; };
+		BC4D710687E1FEE65F3911ED104F353E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		BCFF6A64A22E81E628F7657732218EDA /* YHICBCPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHICBCPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFCA259D0234B16B2935AFD43EF37888 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		C4E546FAF25FB32BE3460E7EDAB7959F /* Pods-YHICBCPaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHICBCPaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		C7D8E111F1FA7F326F4E434D9A2AAE79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C9349E061AAAD3776A7178227D1008F1 /* Pods-YHICBCPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHICBCPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
+		CA990E107821D2CEB73C851FB4C2C5A9 /* ICBCPaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ICBCPaySDK.bundle; path = Resources/ICBCPaySDK.bundle; sourceTree = "<group>"; };
+		CDABC3E49964E9935B04A4BA95A5DAF2 /* ICBCPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICBCPaySDK.framework; path = Frameworks/ICBCPaySDK.framework; sourceTree = "<group>"; };
+		D0429CF3C1878A1AC025613F9C162CB6 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		D1ACFC9D398332854E220A9759B3959C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D213C8BF22FD54C740886A67B4508338 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		D697BCE017007A3043ECEB6E46DFFE51 /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		D6FEA14E59988E6D9086C96C4763DB00 /* Pods-YHICBCPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHICBCPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE3511DB03324AFC87DAFA0D06B607D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E04608341BFAD99A8661D97A95B36A72 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		E2B779569B58CBA652EEBEE5847450AB /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		E342EA83A094427F6003CC5FCDDB2903 /* Pods-YHICBCPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHICBCPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E350DF623E016CF498ED6D57DA6AF46C /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		E3FD61E8E2FB6AFE002FF22E7DD299EA /* Pods-YHICBCPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHICBCPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E49A28934A72897EC8CE285DB8B9286B /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		E50A4F06EAA0109915E1F3D1FC2D71CE /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E8EF87ECDC2DBF2E792229147DADB9DC /* GTMBase64-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMBase64-prefix.pch"; sourceTree = "<group>"; };
+		E9D81707FF61BB34F2FBD89291D80D8F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EDB0028C085036E51607AAAD3FB84FE2 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		EE590F04ACFC9E6807952036DC414051 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		FA350006A085452D1F5AE2833583AB4A /* Pods-YHICBCPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHICBCPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDF8B84F97F99EC5CC87593191087F00 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CDD8BE2FE88408FBBC55ED6E783F1B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED3104AD8E1CD6661D1C9A5BF7179F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A3FDA188C39459F6C465E1B72A6CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149F6D5E81684757AE7527F6844ED862 /* Foundation.framework in Frameworks */,
+				2EE846B5A6535CC8833F613D0E2BBE6F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99296CB2AAE82C49C9B4A74A8F4D8341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D42BC4EDA52A276BE5C2996AD99AE8 /* CoreGraphics.framework in Frameworks */,
+				9AFFB2CFE22FCB06F9B1F8D5B1E58E10 /* Foundation.framework in Frameworks */,
+				30779EDAAAECEC1C5D5F78F87FD41EBB /* MobileCoreServices.framework in Frameworks */,
+				B30E8793C8B03056D888492A5C29EFE3 /* Security.framework in Frameworks */,
+				59283183232C2DF3CE5004DD2E72D7DA /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FF9C8E774997B0B0928A20F359F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D89D83C7F410AF493120322EF3CD5CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40A0ACCDC915D4EE41BDFBDC453C280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE6BA342A50C04AB3BA954218F9C0E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122F0314F965B51EF3C7CBAF65E7F489 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				B1C43F7FD093DC9CB8C4A7473F02B210 /* GTMBase64.h */,
+				115CA794664A28D823B8F23AA06926BE /* GTMBase64.m */,
+				09803D8C8042D8244A2BC71820ABB660 /* GTMDefines.h */,
+				A684D7453F83E8FE52D627600D162EA7 /* Support Files */,
+			);
+			name = GTMBase64;
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		1835BE90161A0E2E3C3B811288C61852 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F9CE600C59E51E4510FC76D14AE01 /* AFURLRequestSerialization.h */,
+				51FA8C76241B44088623D5FAC16EED5A /* AFURLRequestSerialization.m */,
+				855C27B2138E671A8084DC4633B47C9B /* AFURLResponseSerialization.h */,
+				88BE8A3A76DCD32D6D01BAB2223A75CE /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		1986B6BDE6FF39E8569FAA37506445FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0475A67DAD94594D637402154186BB19 /* YHICBCPaySDK.debug.xcconfig */,
+				1BB19109C9E7481A7BA18F44825CDA31 /* YHICBCPaySDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHICBCPaySDK";
+			sourceTree = "<group>";
+		};
+		252EC3C2E8E6541CC49482759EFE7990 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4CA3AE179E2816041A6C2238FCFCEF08 /* AFNetworking.h */,
+				9D74B386A394AD871C1B5CD8022B916C /* NSURLSession */,
+				2DC607B00130FCD0BF6C68B0E7D09DC1 /* Reachability */,
+				418C249EC63D324FE79EF631124ECFE9 /* Security */,
+				1835BE90161A0E2E3C3B811288C61852 /* Serialization */,
+				79CDCFEC89E7EE778C2DA5B891BE6E90 /* Support Files */,
+				888772334EDD8420818C70960D3207C3 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		2746FACB9046D3231CA57196E25F34D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				91FD61FB9521D00EF5B50F3CB4FC3CD0 /* GTMBase64.framework */,
+				714A75230C59CFC4CB1129CDFF9CCCA1 /* Pods_YHICBCPaySDK_Example.framework */,
+				459EFF690B15DB2ED38F82D87B98B84F /* Pods_YHICBCPaySDK_Tests.framework */,
+				55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A6FC9186C2D27DA658C3E356C08828B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDABC3E49964E9935B04A4BA95A5DAF2 /* ICBCPaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DC607B00130FCD0BF6C68B0E7D09DC1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D710687E1FEE65F3911ED104F353E /* AFNetworkReachabilityManager.h */,
+				E50A4F06EAA0109915E1F3D1FC2D71CE /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3C76E848C22058D1BFDB3E9C84183E68 /* Pods-YHICBCPaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6CCFF6B318BF0595315A9141F0B09545 /* Pods-YHICBCPaySDK_Tests.modulemap */,
+				03F2C945A0D535A2A16B934870B11BF1 /* Pods-YHICBCPaySDK_Tests-acknowledgements.markdown */,
+				6C119A3EC0B585C2726857E1599974D3 /* Pods-YHICBCPaySDK_Tests-acknowledgements.plist */,
+				406AC52D1CF8BAD213C0D540147E4EF0 /* Pods-YHICBCPaySDK_Tests-dummy.m */,
+				C4E546FAF25FB32BE3460E7EDAB7959F /* Pods-YHICBCPaySDK_Tests-Info.plist */,
+				236D67455EC5BBC3539BBC7E4E25B290 /* Pods-YHICBCPaySDK_Tests-umbrella.h */,
+				033BC1BDA6DC1ABD6E53424D36633B8C /* Pods-YHICBCPaySDK_Tests.debug.xcconfig */,
+				D6FEA14E59988E6D9086C96C4763DB00 /* Pods-YHICBCPaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-YHICBCPaySDK_Tests";
+			path = "Target Support Files/Pods-YHICBCPaySDK_Tests";
+			sourceTree = "<group>";
+		};
+		4096F36FC102DF59F34E2E6B3AB38CB8 /* YHICBCPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				CA990E107821D2CEB73C851FB4C2C5A9 /* ICBCPaySDK.bundle */,
+				2A6FC9186C2D27DA658C3E356C08828B /* Frameworks */,
+				F467A0D78617F7F67AEB090A00D4B74E /* Pod */,
+				1986B6BDE6FF39E8569FAA37506445FE /* Support Files */,
+			);
+			name = YHICBCPaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		418C249EC63D324FE79EF631124ECFE9 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				D1ACFC9D398332854E220A9759B3959C /* AFSecurityPolicy.h */,
+				E9D81707FF61BB34F2FBD89291D80D8F /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		4530F8E759A2CE259693F8AA5CFE9C4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D498221349ECAED18CA7EDCE360095ED /* Pods-YHICBCPaySDK_Example */,
+				3C76E848C22058D1BFDB3E9C84183E68 /* Pods-YHICBCPaySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47BFAE78578A7FE9237D4DC8DDDD45E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9145D5806224265EB879830EF30F05C3 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52478DEFFCC3E877DDC9136E82472473 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				252EC3C2E8E6541CC49482759EFE7990 /* AFNetworking */,
+				9A843BF37F978E6D4EB7DAF5F71F0151 /* AlipaySDK-iOS */,
+				122F0314F965B51EF3C7CBAF65E7F489 /* GTMBase64 */,
+				B278934994A23FF112898D6DB7585B5A /* Toast */,
+				936FDEEC7455EF76194D63BBDCBD549A /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A582CD7816DDFFBD8EB45F28DD44FD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D213C8BF22FD54C740886A67B4508338 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A8D40FC43A3AE5888A564B77074ED45 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4096F36FC102DF59F34E2E6B3AB38CB8 /* YHICBCPaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		79CDCFEC89E7EE778C2DA5B891BE6E90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA259D0234B16B2935AFD43EF37888 /* AFNetworking.modulemap */,
+				2FFEEC5CBC551A348D869007F2B75ADF /* AFNetworking-dummy.m */,
+				EE590F04ACFC9E6807952036DC414051 /* AFNetworking-Info.plist */,
+				1B6A062468F08F21F507E607BA049974 /* AFNetworking-prefix.pch */,
+				A5034F06E35ACE54609111067184E914 /* AFNetworking-umbrella.h */,
+				7C40696873724B458A9B55A3C046BE54 /* AFNetworking.debug.xcconfig */,
+				24C1DDE0ECD83C56E967518DC073C2E1 /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		888772334EDD8420818C70960D3207C3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				437685428C375341CB515DC4F1CE992E /* AFAutoPurgingImageCache.h */,
+				19A622D712D4FAB8E9EF305D780BB992 /* AFAutoPurgingImageCache.m */,
+				531E1BF21E56A1FC97849DF30FDD116F /* AFImageDownloader.h */,
+				65196BA1786845935C5145A015D89A9A /* AFImageDownloader.m */,
+				453A416B547BDA1CA6CAC8CD0001C009 /* AFNetworkActivityIndicatorManager.h */,
+				687781C033E530C7DFC72AEEC5024698 /* AFNetworkActivityIndicatorManager.m */,
+				EDB0028C085036E51607AAAD3FB84FE2 /* UIActivityIndicatorView+AFNetworking.h */,
+				D0429CF3C1878A1AC025613F9C162CB6 /* UIActivityIndicatorView+AFNetworking.m */,
+				272C69C149796CC884698E3A22499DDA /* UIButton+AFNetworking.h */,
+				215A9B09B9C523A81EED5E8ABFD7E598 /* UIButton+AFNetworking.m */,
+				215E48B86283CC11347D0906CD543EFE /* UIImage+AFNetworking.h */,
+				788CC8CB827BEA840BFEEF3A7F4F8B52 /* UIImageView+AFNetworking.h */,
+				93E928B1CF06EDB9093A69A9CFF18326 /* UIImageView+AFNetworking.m */,
+				0CF725EA3BDD882124CF6C3BF551F483 /* UIKit+AFNetworking.h */,
+				2F462C468FADF501E74FCB253228ACD1 /* UIProgressView+AFNetworking.h */,
+				262DCCEAC696CCB577BD3D2F65497586 /* UIProgressView+AFNetworking.m */,
+				2FEA5018E79BE9623C9DE5D378607AF0 /* UIRefreshControl+AFNetworking.h */,
+				28807A603C31BABE02E6DA0F29BF03CC /* UIRefreshControl+AFNetworking.m */,
+				07B02F084D611917B9C70261967D8451 /* UIWebView+AFNetworking.h */,
+				4BC8806BF6FCB2E6C7DB6A7FA9E23D85 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		936FDEEC7455EF76194D63BBDCBD549A /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E49A28934A72897EC8CE285DB8B9286B /* WechatAuthSDK.h */,
+				59C28691EF65ED80943C8154BB3CD821 /* WXApi.h */,
+				9836296C169E5B7908CD867C2D9F5562 /* WXApiObject.h */,
+				6A582CD7816DDFFBD8EB45F28DD44FD2 /* Frameworks */,
+				958A62863B0B61A14165C656446F74EB /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		94B4895D7D680123C9760AE807C73FA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				305150B8044C5150B8AB65FF60127001 /* Toast.modulemap */,
+				32321B12A06682ED5FCACEE38413A317 /* Toast-dummy.m */,
+				9B1F804BD2C00C6ACFAC934CDDE7422C /* Toast-Info.plist */,
+				53DA3F8E66971AE50BBA32C6A95656D6 /* Toast-prefix.pch */,
+				D697BCE017007A3043ECEB6E46DFFE51 /* Toast-umbrella.h */,
+				BA853D035055163EBD3C3198AD057C47 /* Toast.debug.xcconfig */,
+				1A5FF4153DD3396FD8FEEF3FF2F2AB2A /* Toast.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		958A62863B0B61A14165C656446F74EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A744B5509FA82B64664234770191635E /* WechatOpenSDK.debug.xcconfig */,
+				FDF8B84F97F99EC5CC87593191087F00 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		9A843BF37F978E6D4EB7DAF5F71F0151 /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47BFAE78578A7FE9237D4DC8DDDD45E6 /* Frameworks */,
+				F6CD58338346409A4C8A9C252DE6AB80 /* Resources */,
+				E88C31C20F458BE1356A0F57D7F2AACE /* Support Files */,
+			);
+			name = "AlipaySDK-iOS";
+			path = "AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		9D74B386A394AD871C1B5CD8022B916C /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				8444E4D44D4DB9BB4965EDAA238657AB /* AFCompatibilityMacros.h */,
+				94A913681CA612B45267B58866E3C6A5 /* AFHTTPSessionManager.h */,
+				8432D287C245BFA755A3992E04F016FE /* AFHTTPSessionManager.m */,
+				E04608341BFAD99A8661D97A95B36A72 /* AFURLSessionManager.h */,
+				4D74FEC72BA7DDA577527A980B024138 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		A684D7453F83E8FE52D627600D162EA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				286E126BE5FC01D38CC1E8D5FD61BF30 /* GTMBase64.modulemap */,
+				4690443B93B14DF9CF004B84A59D6BB8 /* GTMBase64-dummy.m */,
+				0D687608864DCE30DAC795693AD8EE1F /* GTMBase64-Info.plist */,
+				E8EF87ECDC2DBF2E792229147DADB9DC /* GTMBase64-prefix.pch */,
+				19B330FF9A1BCF457E1020A5AA98B370 /* GTMBase64-umbrella.h */,
+				796EBAD0FC72CB19E4F262E724E5AE80 /* GTMBase64.debug.xcconfig */,
+				17FBF6D10EF0201EB1B12823E0CE4203 /* GTMBase64.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMBase64";
+			sourceTree = "<group>";
+		};
+		B278934994A23FF112898D6DB7585B5A /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				E350DF623E016CF498ED6D57DA6AF46C /* UIView+Toast.h */,
+				615609E2DA32EB985D8F0465F81A76D8 /* UIView+Toast.m */,
+				94B4895D7D680123C9760AE807C73FA7 /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6A8D40FC43A3AE5888A564B77074ED45 /* Development Pods */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				52478DEFFCC3E877DDC9136E82472473 /* Pods */,
+				2746FACB9046D3231CA57196E25F34D7 /* Products */,
+				4530F8E759A2CE259693F8AA5CFE9C4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D498221349ECAED18CA7EDCE360095ED /* Pods-YHICBCPaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7FDD30D55C3070A3F50B97D1BA2ABADC /* Pods-YHICBCPaySDK_Example.modulemap */,
+				FA350006A085452D1F5AE2833583AB4A /* Pods-YHICBCPaySDK_Example-acknowledgements.markdown */,
+				E3FD61E8E2FB6AFE002FF22E7DD299EA /* Pods-YHICBCPaySDK_Example-acknowledgements.plist */,
+				20946FC1030864EA02A5BE6F9FA454D0 /* Pods-YHICBCPaySDK_Example-dummy.m */,
+				9847B1DF31381E7F3AF4C0F1D338573C /* Pods-YHICBCPaySDK_Example-frameworks.sh */,
+				8FC617200BE81A1AB634018985B3559F /* Pods-YHICBCPaySDK_Example-Info.plist */,
+				C9349E061AAAD3776A7178227D1008F1 /* Pods-YHICBCPaySDK_Example-resources.sh */,
+				3992409DEA53B94E34750240F3B7CA54 /* Pods-YHICBCPaySDK_Example-umbrella.h */,
+				23C0B31A57BADE12E1913395F33492B6 /* Pods-YHICBCPaySDK_Example.debug.xcconfig */,
+				E342EA83A094427F6003CC5FCDDB2903 /* Pods-YHICBCPaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-YHICBCPaySDK_Example";
+			path = "Target Support Files/Pods-YHICBCPaySDK_Example";
+			sourceTree = "<group>";
+		};
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F468BC2EDAD4F4C8C5AECC6D7A58763D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E88C31C20F458BE1356A0F57D7F2AACE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EEED0B32984A078D57AB949FF68A736 /* AlipaySDK-iOS.debug.xcconfig */,
+				269CFAAF49D4A8FE582D99FE367A021A /* AlipaySDK-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		F467A0D78617F7F67AEB090A00D4B74E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B70853C5F91229947DE76E573F89AA6A /* LICENSE */,
+				318585F33FC0AF4C8F5FE6D0846117EE /* README.md */,
+				BCFF6A64A22E81E628F7657732218EDA /* YHICBCPaySDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F468BC2EDAD4F4C8C5AECC6D7A58763D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7ED510026DD60918D1E809135079052A /* CoreGraphics.framework */,
+				49130CA02DFD38B585EC61D380F2B043 /* Foundation.framework */,
+				27BD54BD7DF83D62B75243109FC66426 /* MobileCoreServices.framework */,
+				C7D8E111F1FA7F326F4E434D9A2AAE79 /* QuartzCore.framework */,
+				320791CEB39B0ECD6F4305ADF054628D /* Security.framework */,
+				DE3511DB03324AFC87DAFA0D06B607D5 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6CD58338346409A4C8A9C252DE6AB80 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2B779569B58CBA652EEBEE5847450AB /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12C69189106D6B8E1A9DF234735495AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85B2E683944E5C2C38E0B5171B304B2 /* Toast-umbrella.h in Headers */,
+				DDEC283429FB237D96EA4C757133FADD /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA09397ED9A7E24A5A5C9FC377AB772 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC05CCA1C509A0B6ED3CD86700D7722B /* Pods-YHICBCPaySDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4CFC4F2D53544FAD55906B4A2011EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB8C3F1313A78F77CFFF51D24DDF653 /* Pods-YHICBCPaySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78D315891916709B3A7C9F818280975 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23359F08E3448F2864BF3BEDC9D81F81 /* GTMBase64-umbrella.h in Headers */,
+				ABBB199286D73567D919E6FC6C8928F7 /* GTMBase64.h in Headers */,
+				626B39E4D476758CD613021647AB45BC /* GTMDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F3954755BD8248E767F716DA24E14F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */,
+				F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */,
+				169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */,
+				E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */,
+				2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */,
+				5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */,
+				7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */,
+				A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */,
+				3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */,
+				17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */,
+				47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */,
+				D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */,
+				B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */,
+				09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */,
+				6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */,
+				9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */,
+				3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */,
+				09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */,
+				F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				F5F3954755BD8248E767F716DA24E14F /* Headers */,
+				E16D45883ACDDBE532CC4EABBA7C6196 /* Sources */,
+				99296CB2AAE82C49C9B4A74A8F4D8341 /* Frameworks */,
+				51B338009A28492821105E82A3A3C869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A80A4D6B185BA43BC06122FED0C15F94 /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EF68D6DAEA146419D1CD8F1D080518 /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				12C69189106D6B8E1A9DF234735495AB /* Headers */,
+				C4FEB003A961ABAF0E026720671760C6 /* Sources */,
+				38A3FDA188C39459F6C465E1B72A6CB4 /* Frameworks */,
+				0C50CAE242F19910D256C3F350617A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = 55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAB966304D1596805E82D9B525A224D9 /* Pods-YHICBCPaySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE655DFA1EEB91D789DFE072BD4545E /* Build configuration list for PBXNativeTarget "Pods-YHICBCPaySDK_Tests" */;
+			buildPhases = (
+				6F4CFC4F2D53544FAD55906B4A2011EA /* Headers */,
+				8FBF33B3E9379A4123B483393E27C054 /* Sources */,
+				DF40FF9C8E774997B0B0928A20F359F9 /* Frameworks */,
+				A780B224DF1215EDDA59D7C903DC0715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F9EFD23EE96F446AE0D060DBD9BF921 /* PBXTargetDependency */,
+			);
+			name = "Pods-YHICBCPaySDK_Tests";
+			productName = "Pods-YHICBCPaySDK_Tests";
+			productReference = 459EFF690B15DB2ED38F82D87B98B84F /* Pods_YHICBCPaySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABD0BEB997F424C11EE21A4E091425E4 /* GTMBase64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089F31C173FB376193C61E5CD2680312 /* Build configuration list for PBXNativeTarget "GTMBase64" */;
+			buildPhases = (
+				B78D315891916709B3A7C9F818280975 /* Headers */,
+				487000E838D038FD898BE37DF9F58231 /* Sources */,
+				2CDD8BE2FE88408FBBC55ED6E783F1B9 /* Frameworks */,
+				8A8486D7828699A7D762FF062ECD9643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMBase64;
+			productName = GTMBase64;
+			productReference = 91FD61FB9521D00EF5B50F3CB4FC3CD0 /* GTMBase64.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA6E510021818A5EDEC87531785C623C /* Pods-YHICBCPaySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7D2A56543C6ED2D6D5AC6767C1A1FC /* Build configuration list for PBXNativeTarget "Pods-YHICBCPaySDK_Example" */;
+			buildPhases = (
+				2CA09397ED9A7E24A5A5C9FC377AB772 /* Headers */,
+				028BA5DE6BC7C8AEA75679024B4DF8C1 /* Sources */,
+				F40A0ACCDC915D4EE41BDFBDC453C280 /* Frameworks */,
+				8AC1A9D8B61CD6D04309C069C77FDF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				686478F17AF1A0E7BB693640C4673003 /* PBXTargetDependency */,
+				35136A8EFC7E4592EAA965BD6ED3C1F0 /* PBXTargetDependency */,
+				63EC3488571BF6374CFAB738B4CD7B83 /* PBXTargetDependency */,
+				9C38FD8BD590BCCBE4C42EFC370E505C /* PBXTargetDependency */,
+				B66FEFDB19554BE6194351F27F0AD78C /* PBXTargetDependency */,
+				6B5E82B0C2F114A2D6164F1A35C0DA52 /* PBXTargetDependency */,
+			);
+			name = "Pods-YHICBCPaySDK_Example";
+			productName = "Pods-YHICBCPaySDK_Example";
+			productReference = 714A75230C59CFC4CB1129CDFF9CCCA1 /* Pods_YHICBCPaySDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2746FACB9046D3231CA57196E25F34D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
+				ABD0BEB997F424C11EE21A4E091425E4 /* GTMBase64 */,
+				CA6E510021818A5EDEC87531785C623C /* Pods-YHICBCPaySDK_Example */,
+				AAB966304D1596805E82D9B525A224D9 /* Pods-YHICBCPaySDK_Tests */,
+				A80A4D6B185BA43BC06122FED0C15F94 /* Toast */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+				1BF22BB8B66D2F42B77D2D7DF5C94648 /* YHICBCPaySDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C50CAE242F19910D256C3F350617A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B338009A28492821105E82A3A3C869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8486D7828699A7D762FF062ECD9643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC1A9D8B61CD6D04309C069C77FDF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A780B224DF1215EDDA59D7C903DC0715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028BA5DE6BC7C8AEA75679024B4DF8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B52B43F73954600E51B018D50E6D72 /* Pods-YHICBCPaySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487000E838D038FD898BE37DF9F58231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D090FB1C368A800489124E5A734EC6 /* GTMBase64-dummy.m in Sources */,
+				FF4B8D47A4795F2BB66EFEF0DDA8F73F /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBF33B3E9379A4123B483393E27C054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAD72DBC4AE8C1746FC12F9E0E91046 /* Pods-YHICBCPaySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FEB003A961ABAF0E026720671760C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84176BABEC44273143E4BF4D56C8B6D3 /* Toast-dummy.m in Sources */,
+				EC45C240923AED7179ED122E374108DF /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16D45883ACDDBE532CC4EABBA7C6196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */,
+				77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */,
+				0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */,
+				6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */,
+				95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */,
+				769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */,
+				E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */,
+				A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */,
+				856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */,
+				8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */,
+				AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */,
+				98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */,
+				D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */,
+				DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F9EFD23EE96F446AE0D060DBD9BF921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YHICBCPaySDK_Example";
+			target = CA6E510021818A5EDEC87531785C623C /* Pods-YHICBCPaySDK_Example */;
+			targetProxy = 07D16FCB0830FFE5273151D3746CE7BC /* PBXContainerItemProxy */;
+		};
+		34655888F03FBD701225D29E181BB758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = A80A4D6B185BA43BC06122FED0C15F94 /* Toast */;
+			targetProxy = 67F441B6803528F3EFE57002D62F999E /* PBXContainerItemProxy */;
+		};
+		35136A8EFC7E4592EAA965BD6ED3C1F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = F85584298F931E8D8F2EA5CE8172EDB7 /* PBXContainerItemProxy */;
+		};
+		3CBC55FAB83A880BD517123A1246EAF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMBase64;
+			target = ABD0BEB997F424C11EE21A4E091425E4 /* GTMBase64 */;
+			targetProxy = 83BA6B26A35068978EEB2B0C4F6630BE /* PBXContainerItemProxy */;
+		};
+		63EC3488571BF6374CFAB738B4CD7B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMBase64;
+			target = ABD0BEB997F424C11EE21A4E091425E4 /* GTMBase64 */;
+			targetProxy = C8799EE4E8A4B85E452FE3160DB74E95 /* PBXContainerItemProxy */;
+		};
+		686478F17AF1A0E7BB693640C4673003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 14C261342B39E995C1B9AFE1E94AE21B /* PBXContainerItemProxy */;
+		};
+		6A8D3E8ACC2C83662C002DBFB06208DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 888D4468451254B63F9FC0F9012B2481 /* PBXContainerItemProxy */;
+		};
+		6B5E82B0C2F114A2D6164F1A35C0DA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YHICBCPaySDK;
+			target = 1BF22BB8B66D2F42B77D2D7DF5C94648 /* YHICBCPaySDK */;
+			targetProxy = 259AE986022DC27C84B9735565D3A3AB /* PBXContainerItemProxy */;
+		};
+		9B4745536A127A78D1599409903A5F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = 58D032BC7C08D9499A9DB54BB6FA6434 /* PBXContainerItemProxy */;
+		};
+		9C38FD8BD590BCCBE4C42EFC370E505C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = A80A4D6B185BA43BC06122FED0C15F94 /* Toast */;
+			targetProxy = 104A6EAE79BB2023DA602862985DDDDA /* PBXContainerItemProxy */;
+		};
+		B66FEFDB19554BE6194351F27F0AD78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = B303B9E10CDB3DBDB551BB1F0A5D7EC6 /* PBXContainerItemProxy */;
+		};
+		BA4B455904C2AF2F034B51C46F32AE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 4EFD9C6026ECEC412D6748A8991346D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D46C947E1FEF1D49D00E00669784E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEED0B32984A078D57AB949FF68A736 /* AlipaySDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AB28622A25F24EBC088F83E410F3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C1DDE0ECD83C56E967518DC073C2E1 /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17AA3849033C4A0631318917A0E90CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FEA14E59988E6D9086C96C4763DB00 /* Pods-YHICBCPaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHICBCPaySDK_Tests/Pods-YHICBCPaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHICBCPaySDK_Tests/Pods-YHICBCPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF8B84F97F99EC5CC87593191087F00 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33950CDF03D11274ED50CF7D3926171D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5FF4153DD3396FD8FEEF3FF2F2AB2A /* Toast.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		400F4BB634B114D94ED04AD03D729088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA853D035055163EBD3C3198AD057C47 /* Toast.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		490076727757DCF682ECE48F8725D149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796EBAD0FC72CB19E4F262E724E5AE80 /* GTMBase64.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMBase64/GTMBase64-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMBase64/GTMBase64-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMBase64/GTMBase64.modulemap";
+				PRODUCT_MODULE_NAME = GTMBase64;
+				PRODUCT_NAME = GTMBase64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		562C9B96519273C107EBCD7DDB5C2553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C40696873724B458A9B55A3C046BE54 /* AFNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B09FCFB24CA6AEE8E79BFEAA2FFAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0475A67DAD94594D637402154186BB19 /* YHICBCPaySDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		615D660287ED87CA585FD29BA5E3D1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FBF6D10EF0201EB1B12823E0CE4203 /* GTMBase64.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMBase64/GTMBase64-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMBase64/GTMBase64-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMBase64/GTMBase64.modulemap";
+				PRODUCT_MODULE_NAME = GTMBase64;
+				PRODUCT_NAME = GTMBase64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		74982C4FE056C0B71811491A62DF727C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E342EA83A094427F6003CC5FCDDB2903 /* Pods-YHICBCPaySDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3AE3C17E93636B949F8AACDE30A07C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB19109C9E7481A7BA18F44825CDA31 /* YHICBCPaySDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C6594EAE79D3F1DF68DB19E0F4A9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269CFAAF49D4A8FE582D99FE367A021A /* AlipaySDK-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5E56C04DB629CDACE5FE407652C9CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033BC1BDA6DC1ABD6E53424D36633B8C /* Pods-YHICBCPaySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHICBCPaySDK_Tests/Pods-YHICBCPaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHICBCPaySDK_Tests/Pods-YHICBCPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9034C3C8B274D7A7C62065B44D4B763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A744B5509FA82B64664234770191635E /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0BED069E014E529D9AA1983E16BFE2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C0B31A57BADE12E1913395F33492B6 /* Pods-YHICBCPaySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHICBCPaySDK_Example/Pods-YHICBCPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089F31C173FB376193C61E5CD2680312 /* Build configuration list for PBXNativeTarget "GTMBase64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490076727757DCF682ECE48F8725D149 /* Debug */,
+				615D660287ED87CA585FD29BA5E3D1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562C9B96519273C107EBCD7DDB5C2553 /* Debug */,
+				04AB28622A25F24EBC088F83E410F3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D46C947E1FEF1D49D00E00669784E4 /* Debug */,
+				D3C6594EAE79D3F1DF68DB19E0F4A9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9034C3C8B274D7A7C62065B44D4B763 /* Debug */,
+				19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE655DFA1EEB91D789DFE072BD4545E /* Build configuration list for PBXNativeTarget "Pods-YHICBCPaySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E56C04DB629CDACE5FE407652C9CD0 /* Debug */,
+				17AA3849033C4A0631318917A0E90CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7D2A56543C6ED2D6D5AC6767C1A1FC /* Build configuration list for PBXNativeTarget "Pods-YHICBCPaySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BED069E014E529D9AA1983E16BFE2E /* Debug */,
+				74982C4FE056C0B71811491A62DF727C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EF68D6DAEA146419D1CD8F1D080518 /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400F4BB634B114D94ED04AD03D729088 /* Debug */,
+				33950CDF03D11274ED50CF7D3926171D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFD7ACB8BFBEB7ADD4C2EC39EDCE2D5 /* Build configuration list for PBXAggregateTarget "YHICBCPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B09FCFB24CA6AEE8E79BFEAA2FFAD7 /* Debug */,
+				D3AE3C17E93636B949F8AACDE30A07C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
